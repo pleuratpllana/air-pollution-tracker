@@ -1,0 +1,624 @@
+[00:00:02.799] Server  LOG     ✓ Ready in 2.1s
+[00:00:05.294] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.265] Server  LOG     ✓ Compiled in 41ms
+[00:01:22.684] Server  LOG     ✓ Compiled in 81ms
+[00:01:25.798] Server  LOG     ✓ Compiled in 62ms
+[00:01:29.964] Server  LOG     ✓ Compiled in 86ms
+[00:01:40.716] Server  LOG     ✓ Compiled in 200ms
+[00:01:48.055] Server  LOG     ✓ Compiled in 176ms
+[00:03:45.909] Server  LOG     ✓ Compiled in 71ms
+[00:03:55.543] Server  LOG     ✓ Compiled in 66ms
+[00:05:16.867] Server  LOG     ✓ Compiled in 50ms
+[00:05:28.914] Server  LOG     ✓ Compiled in 81ms
+[00:05:31.834] Server  LOG     ✓ Compiled in 115ms
+[00:05:33.157] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:41.151] Server  LOG     ✓ Compiled in 41ms
+[00:06:23.123] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:23.606] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:23.641] Server  LOG     ✓ Compiled in 108ms
+[00:06:24.213] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:24.704] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:25.713] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:26.161] Server  ERROR   ⨯ ReferenceError: search is not defined
+[00:06:26.477] Browser ERROR   uncaughtError: ReferenceError: search is not defined
+[00:06:36.350] Server  LOG     ✓ Compiled in 69ms
+[00:06:36.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:48.358] Server  LOG     ✓ Compiled in 83ms
+[00:06:51.604] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:00.311] Server  LOG     ✓ Compiled in 24ms
+[00:07:03.166] Server  LOG     ✓ Compiled in 30ms
+[00:07:18.297] Server  LOG     ✓ Compiled in 23ms
+[00:08:18.525] Server  LOG     ✓ Compiled in 56ms
+[00:11:44.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:02.651] Server  LOG     ✓ Compiled in 81ms
+[00:12:04.799] Server  LOG     ✓ Compiled in 84ms
+[00:12:07.994] Server  LOG     ✓ Compiled in 82ms
+[00:13:25.270] Server  LOG     ✓ Compiled in 41ms
+[00:13:29.603] Server  LOG     ✓ Compiled in 44ms
+[00:14:21.439] Server  LOG     ✓ Compiled in 37ms
+[00:15:12.741] Server  LOG     ✓ Compiled in 48ms
+[00:16:48.842] Server  LOG     ✓ Compiled in 146ms
+[00:17:09.275] Server  LOG     ✓ Compiled in 63ms
+[00:17:10.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:32.414] Server  LOG     ✓ Compiled in 40ms
+[00:17:35.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:58.925] Server  LOG       Reload env: .env
+[00:19:02.173] Server  LOG       Reload env: .env
+[00:19:21.504] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:33.679] Server  LOG     ✓ Compiled in 28ms
+[00:20:36.964] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:56.399] Server  LOG     ✓ Compiled in 46ms
+[00:20:59.577] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:04.882] Server  LOG     ✓ Compiled in 75ms
+[00:21:05.717] Server  LOG     ✓ Compiled in 91ms
+[00:24:20.742] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:46.234] Server  LOG     ✓ Compiled in 45ms
+[00:24:48.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:50.214] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.243] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.267] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.311] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.348] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.365] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:50.789] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:50.789] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:51.166] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:51.166] Browser ERROR   {}
+[00:24:51.184] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:51.200] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:51.362] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:19.063] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.070] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.076] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.081] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.086] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.091] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.195] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:19.201] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:20.042] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:20.042] Browser ERROR   {}
+[00:25:20.042] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:23.039] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:27.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:27.977] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:27.991] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.012] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.040] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.065] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.077] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.090] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:28.090] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '@/lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "@/lib/cityMapping";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+Import map: aliased to relative './lib/cityMapping' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:28.288] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.298] Server  ERROR   ⨯ ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:28.408] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:28.408] Browser ERROR   {}
+[00:25:28.516] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:34.539] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:37.922] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:39.146] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:39.556] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:39.556] Browser ERROR   ./app/api/air-quality/route.ts:3:1
+Module not found: Can't resolve '../../../lib/cityMapping'
+  1 | // app/api/air-quality/route.ts
+  2 | import { NextRequest, NextResponse } from "next/server";
+> 3 | import { cityMapping } from "../../../lib/cityMapping"; // relative path
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | export async function GET(req: NextRequest) {
+  6 |   const token = process.env.WAQI_API_TOKEN;
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:08.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:07.445] Server  LOG     ✓ Compiled in 180ms
+[00:32:18.557] Server  LOG     ✓ Compiled in 161ms
+[00:32:19.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
