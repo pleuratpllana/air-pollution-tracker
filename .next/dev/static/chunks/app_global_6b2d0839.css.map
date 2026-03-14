@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Mr.Robot/Desktop/kosovo-air-quality/app/global.css"],"sourcesContent":["/* Light mode */\r\n:root {\r\n  --color-text: #000; /* text i zi */\r\n  --color-bg: #fff; /* background i bardh */\r\n  --color-border: rgba(0, 0, 0, 0.1);\r\n  --color-hint: rgba(0, 0, 0, 0.5);\r\n}\r\n\r\n/* Dark mode */\r\n@media (prefers-color-scheme: dark) {\r\n  :root {\r\n    --color-text: #fff; /* text i bardh */\r\n    --color-bg: #000; /* background i zi */\r\n    --color-border: rgba(255, 255, 255, 0.1);\r\n    --color-hint: rgba(255, 255, 255, 0.5);\r\n  }\r\n}\r\n\r\n/* Text */\r\n.text {\r\n  color: var(--color-text);\r\n}\r\n\r\n.text-hint {\r\n  color: var(--color-hint);\r\n}\r\n\r\n/* Background */\r\n.bg {\r\n  background-color: var(--color-bg);\r\n}\r\n\r\n.bg-hint {\r\n  background-color: var(--color-border);\r\n}\r\n\r\n/* Borders */\r\n.border {\r\n  border: 1px solid var(--color-border);\r\n}\r\n\r\n/* Optional: subtle hover effect */\r\n.hover-hint:hover {\r\n  background-color: var(--color-border);\r\n}\r\n"],"names":[],"mappings":"AACA;;;;;;;AAQA;EACE;;;;;;;;AASF;;;;AAIA;;;;AAKA;;;;AAIA;;;;AAKA;;;;AAKA"}}]
-}
